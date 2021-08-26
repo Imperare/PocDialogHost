@@ -1,0 +1,142 @@
+﻿<UserControl x:Class="PocDialogHost.TestControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <Grid x:Name="grid" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="50" />
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.RowSpan="3" Grid.ColumnSpan="3" Background="#BFBFBF" />
+        <Grid Grid.Row="1" Grid.Column="1" Background="#F6FFF1" >
+            <Grid Margin="17">
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" >
+                    <TextBlock Text="Width" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                    <TextBox x:Name="textBoxWidth" Width="50" FontSize="18" Margin="20 0" TextChanged="TextBox_TextChangedWidth" />
+                    <TextBlock Text="Height" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                    <TextBox x:Name="textBoxHeight" Width="50" FontSize="18" Margin="20 0" TextChanged="TextBox_TextChangedHeight" />
+                </StackPanel>
+
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 50 0 0" >
+               <Run Text="A" />
+                <LineBreak/>
+                <Run Text="B" />
+                <LineBreak/>
+                <Run Text="C" />
+                <LineBreak/>
+                <Run Text="D" />
+                <LineBreak/>
+                <Run Text="E" />
+                <LineBreak/>
+                <Run Text="F" />
+                <LineBreak/>
+                <Run Text="G" />
+                <LineBreak/>
+                <Run Text="H" />
+                <LineBreak/>
+                <Run Text="I" />
+                <LineBreak/>
+                <Run Text="J" />
+                <LineBreak/>
+                <Run Text="K" />
+                <LineBreak/>
+                <Run Text="L" />
+                <LineBreak/>
+                <Run Text="M" />
+                <LineBreak/>
+                <Run Text="N" />
+                <LineBreak/>
+                <Run Text="O" />
+                <LineBreak/>
+                <Run Text="P" />
+                <LineBreak/>
+                <Run Text="Q" />
+                <LineBreak/>
+                <Run Text="R" />
+                <LineBreak/>
+                <Run Text="S" />
+                <LineBreak/>
+                <Run Text="T" />
+                <LineBreak/>
+                <Run Text="U" />
+                <LineBreak/>
+                <Run Text="V" />
+                <LineBreak/>
+                <Run Text="W" />
+                <LineBreak/>
+                <Run Text="X" />
+                <LineBreak/>
+                <Run Text="Y" />
+                <LineBreak/>
+                <Run Text="Z" />
+                <LineBreak/>
+                <Run Text="A" />
+                <LineBreak/>
+                <Run Text="B" />
+                <LineBreak/>
+                <Run Text="C" />
+                <LineBreak/>
+                <Run Text="D" />
+                <LineBreak/>
+                <Run Text="E" />
+                <LineBreak/>
+                <Run Text="F" />
+                <LineBreak/>
+                <Run Text="G" />
+                <LineBreak/>
+                <Run Text="H" />
+                <LineBreak/>
+                <Run Text="I" />
+                <LineBreak/>
+                <Run Text="J" />
+                <LineBreak/>
+                <Run Text="K" />
+                <LineBreak/>
+                <Run Text="L" />
+                <LineBreak/>
+                <Run Text="M" />
+                <LineBreak/>
+                <Run Text="N" />
+                <LineBreak/>
+                <Run Text="O" />
+                <LineBreak/>
+                <Run Text="P" />
+                <LineBreak/>
+                <Run Text="Q" />
+                <LineBreak/>
+                <Run Text="R" />
+                <LineBreak/>
+                <Run Text="S" />
+                <LineBreak/>
+                <Run Text="T" />
+                <LineBreak/>
+                <Run Text="U" />
+                <LineBreak/>
+                <Run Text="V" />
+                <LineBreak/>
+                <Run Text="W" />
+                <LineBreak/>
+                <Run Text="X" />
+                <LineBreak/>
+                <Run Text="Y" />
+                <LineBreak/>
+                <Run Text="Z" />
+                <LineBreak/>
+                </TextBlock>
+            </Grid>
+        </Grid>
+
+
+        <Button Grid.Row="1" Grid.Column="1" Content="Close" Width="50" Height="24" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="Button_Click" />
+    </Grid>
+</UserControl>
